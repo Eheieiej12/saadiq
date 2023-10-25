@@ -1,0 +1,82 @@
+body{
+	background-color: black;
+}
+.header{
+	display: flex;
+	padding: 22px;
+}
+.aq{
+	flex-basis: 50%;
+}
+.aw{
+	flex-basis: 50%;
+}
+.aq h1{
+	color: pink;
+}
+.aq p{
+	color: yellow;
+}
+.head{
+	display: flex;
+	margin: 20px;
+}
+.logo img{
+	flex-basis: 40%;
+	width: 80px;
+}
+.menu{
+	flex-basis: 50%;
+	padding: 22px;
+}
+.manu img{
+	flex-basis: 10%;
+	width: 10px;
+}
+.menu a{
+	padding-right: 30px;
+	text-decoration: none;
+	font: 20px;
+}
+.aq a{
+	background-color: yellow;
+	font-size: 10px;
+	padding: 22px;
+	margin: 20px;
+	text-decoration: noneS;
+}
+.product{
+	display: flex;
+	background-color: pink;
+}
+ .pro1, .pro2, .pro3{
+	flex-basis: 33%;
+     background-color:white;
+     margin: 20px;
+     padding: 20px;
+}
+.pro1, .pro2, .pro3 h2{
+       color: red;
+}
+.pro1 a, .pro2 a, .pro3 a{
+	background-color: yellow;
+	text-decoration: none;
+	margin: 22px;
+	font-size: 20px;
+}
+.pro1 img, .pro2 img, .pro3 img{
+       width: 100%;
+       height: 300px;
+}
+.waw{
+	background-color: yellow;
+}
+.qab{
+	margin: 22px;
+	padding: 20px;
+}
+.qab a{
+	background-color: black;
+	text-decoration: none;
+	color: white;
+}
